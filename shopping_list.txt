@@ -1,6 +1,6 @@
-Apple
-Milk
-Bread
-Chocolate
-Banana
+Apple x 2
+Milk x 2
+Bread x 2
+Chocolate x 2
+Banana x 2
 
