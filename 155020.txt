@@ -1,0 +1,53 @@
+1. $ cd ~ // Pateka
+
+2. $ cd Desktop/ // Pateka
+
+3. $ git clone https://github.com/sukovamia/SI_2022_lab1_155020.git // Kloniranje na repoto lokalno
+
+4. $cd SI_2022_lab1_155020 // Vleguvame vo folderot
+
+5. $ git remote -v // Proverka dali e namesteno remote repoto
+
+6. $ git remote add SI_2022_lab1_155020 https://github.com/sukovamia/SI_2022_lab1_155020.git // setiranje na remote repo
+
+7. $git push SI_2022_lab1_155020 master // sinhronizacija
+
+8. $ touch shopping_list.txt // kreiranje na tekstualna datoteka
+
+9. $ nano shopping_list.txt // editiranje na datotekata
+
+10. $ git add shopping_list.txt // spremanje na commit
+
+11. $ git config --global user.email "mia.sukova@students.finki.ukim.mk" // setiranje na default email adresa od git
+
+12. $ git commit -m "Add 5 items to the shopping list." // izvrsuvanje commit
+
+13. $ git push SI_2022_lab1_155020 master // sinhronizacija so remote repo
+ 
+14. $ git log
+
+15. $ nano shopping_list.txt // editiranje na datotekata
+
+16. $ git add shopping_list.txt // spremanje na commit
+
+17. $ git commit -m "Add quantities to the items" // izvrsuvanje commit
+
+18. $ git push SI_2022_lab1_155020 master // sinhronizacija
+
+20. $ git log
+
+21. $ git branch branch1 // kreiranje granka 1
+
+22. $ git branch branch2 // kreiranje granka 2
+
+23. $ git push origin branch1 // sinhronizacija na granka 1
+
+24. $ git push origin branch2 // sinhronizacija na granka 2
+
+25. $ git add "155020.txt"
+
+26. $ git commit -m "Add docs"
+
+27. $ git push -u origin master // sinhronizacija na promeni na master
+
+28. $ git push SI_2022_lab1_155020 master // sinhronizacija na promeni na master
